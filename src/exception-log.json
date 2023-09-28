@@ -1,0 +1,85 @@
+{
+    "date": "Mon Jul 31 2023 20:00:02 GMT+0700 (Waktu Indonesia Barat)",
+    "error": {},
+    "exception": true,
+    "level": "error",
+    "message": "uncaughtException: hello is not defined\nReferenceError: hello is not defined\n    at file:///D:/LARAGON/www/NODEJS/logging/src/logging-exception.js:11:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:193:25)\n    at async Promise.all (index 0)\n    at async ESMLoader.import (node:internal/modules/esm/loader:528:24)\n    at async loadESM (node:internal/process/esm_loader:91:5)\n    at async handleMainPromise (node:internal/modules/run_main:65:12)",
+    "os": {
+        "loadavg": [
+            0,
+            0,
+            0
+        ],
+        "uptime": 127470
+    },
+    "process": {
+        "argv": [
+            "D:\\LARAGON\\bin\\nodejs\\node-v18\\node.exe",
+            "D:\\LARAGON\\www\\NODEJS\\logging\\src\\logging-exception.js"
+        ],
+        "cwd": "D:\\LARAGON\\www\\NODEJS\\logging",
+        "execPath": "D:\\LARAGON\\bin\\nodejs\\node-v18\\node.exe",
+        "gid": null,
+        "memoryUsage": {
+            "arrayBuffers": 147599,
+            "external": 632769,
+            "heapTotal": 11063296,
+            "heapUsed": 8509088,
+            "rss": 38060032
+        },
+        "pid": 13880,
+        "uid": null,
+        "version": "v18.8.0"
+    },
+    "stack": "ReferenceError: hello is not defined\n    at file:///D:/LARAGON/www/NODEJS/logging/src/logging-exception.js:11:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:193:25)\n    at async Promise.all (index 0)\n    at async ESMLoader.import (node:internal/modules/esm/loader:528:24)\n    at async loadESM (node:internal/process/esm_loader:91:5)\n    at async handleMainPromise (node:internal/modules/run_main:65:12)",
+    "trace": [
+        {
+            "column": 1,
+            "file": "file:///D:/LARAGON/www/NODEJS/logging/src/logging-exception.js",
+            "function": null,
+            "line": 11,
+            "method": null,
+            "native": false
+        },
+        {
+            "column": 25,
+            "file": "node:internal/modules/esm/module_job",
+            "function": "ModuleJob.run",
+            "line": 193,
+            "method": "run",
+            "native": false
+        },
+        {
+            "column": null,
+            "file": null,
+            "function": "async Promise.all",
+            "line": null,
+            "method": "all",
+            "native": false
+        },
+        {
+            "column": 24,
+            "file": "node:internal/modules/esm/loader",
+            "function": "async ESMLoader.import",
+            "line": 528,
+            "method": "import",
+            "native": false
+        },
+        {
+            "column": 5,
+            "file": "node:internal/process/esm_loader",
+            "function": "async loadESM",
+            "line": 91,
+            "method": null,
+            "native": false
+        },
+        {
+            "column": 12,
+            "file": "node:internal/modules/run_main",
+            "function": "async handleMainPromise",
+            "line": 65,
+            "method": null,
+            "native": false
+        }
+    ]
+}
